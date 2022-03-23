@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/iraise1"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile"
+        android:onClick="profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.177"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.317" />
+
+    <Button
+        android:id="@+id/btnBeranda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/beranda"
+        android:onClick="beranda"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.703"
+        app:layout_constraintStart_toEndOf="@+id/profile"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.317" />
+    <Button
+        android:id="@+id/btnfaq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/faq"
+        android:onClick="faq"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.176"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBeranda"
+        app:layout_constraintVertical_bias="0.361" />
+
+    <Button
+        android:id="@+id/btnpesan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pesan"
+        android:onClick="pesan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.694"
+        app:layout_constraintStart_toEndOf="@+id/btnfaq"
+        app:layout_constraintTop_toBottomOf="@+id/btnBeranda"
+        app:layout_constraintVertical_bias="0.361" />
+    <Button
+        android:id="@+id/btnwisuda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wisuda"
+        android:onClick="wisuda"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.182"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnfaq"
+        app:layout_constraintVertical_bias="0.753" />
+
+    <Button
+        android:id="@+id/btnCuti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cuti"
+        android:onClick="cuti"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.69"
+        app:layout_constraintStart_toEndOf="@+id/btnwisuda"
+        app:layout_constraintTop_toBottomOf="@+id/btnpesan"
+        app:layout_constraintVertical_bias="0.753" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
